@@ -58,7 +58,7 @@ Load Avg: 1.71, 2.00, 2.07
 CPU usage: 6.53% user, 12.53% sys, 80.92% idle
 PhysMem: 15G used (2473M wired, 4339M compressor), 211M unused.
 ```
-846 processes are active on the system. Most (843) are sleeping — waiting for input or a timer — while only 3 are actively running on the CPU. Physical memory shows 15 GB used and 211 MB unused.
+846 processes are on the system; the snapshot showed 3 processes in the running state and 843 sleeping (waiting for input or a timer). Physical memory shows 15 GB used and 211 MB unused.
 
 ---
 
@@ -147,5 +147,6 @@ Not applicable.
 ## 8. Commit details
 
 Commit message: `Document operating system and file management`
+Correction commit: `Clarify process states in Mission 3 OS snapshot`
 Branch: `main`
 Pushed to: `https://github.com/Aayush-Raj07/digital-detective-8526`
