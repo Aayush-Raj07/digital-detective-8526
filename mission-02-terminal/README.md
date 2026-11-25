@@ -11,7 +11,7 @@ Practise navigating the filesystem, managing files, using command flags and pipe
 - Used `printf` with `>` and `>>` to write and append text to `notes.txt`.
 - Demonstrated the `ls -lah` flag combination and a pipe to `head -n 5`.
 - Checked Homebrew version and listed installed packages.
-- Created `terminal-practice/notes.txt` and `terminal-practice/notes-backup.txt`.
+- Created `terminal-practice/notes.txt`, made a backup copy (`notes-backup.txt`), and renamed the backup to `terminal-practice/notes-backup-renamed.txt`.
 
 ## 3. Commands / tools used
 
@@ -62,6 +62,8 @@ printf 'First line of text\n' > notes.txt
 printf 'Second line appended\n' >> notes.txt
 cat notes.txt
 cp notes.txt notes-backup.txt
+mv notes-backup.txt notes-backup-renamed.txt
+ls -lah
 ```
 
 Output of `cat notes.txt`:
@@ -73,9 +75,9 @@ Second line appended
 Output of `ls -lah`:
 ```
 total 16
-drwxr-xr-x@ 4 [redacted]  staff   128B Nov 25 18:48 .
-drwxr-xr-x@ 3 [redacted]  staff    96B Nov 25 18:44 ..
--rw-r--r--@ 1 [redacted]  staff    40B Nov 25 18:48 notes-backup.txt
+drwxr-xr-x@ 4 [redacted]  staff   128B Nov 25 19:05 .
+drwxr-xr-x@ 4 [redacted]  staff   128B Nov 25 18:49 ..
+-rw-r--r--@ 1 [redacted]  staff    40B Nov 25 18:48 notes-backup-renamed.txt
 -rw-r--r--@ 1 [redacted]  staff    40B Nov 25 18:48 notes.txt
 ```
 
@@ -158,10 +160,11 @@ Not applicable.
 ## 7. Evidence / files
 
 - `mission-02-terminal/terminal-practice/notes.txt` — two-line text file created during the mission
-- `mission-02-terminal/terminal-practice/notes-backup.txt` — backup copy
+- `mission-02-terminal/terminal-practice/notes-backup-renamed.txt` — renamed backup copy
 
 ## 8. Commit details
 
 Commit message: `Complete Terminal and file management mission`
+Correction commit: `Document backup rename in Mission 2 terminal practice`
 Branch: `main`
 Pushed to: `https://github.com/Aayush-Raj07/digital-detective-8526`
