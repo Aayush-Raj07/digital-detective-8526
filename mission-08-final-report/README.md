@@ -9,7 +9,7 @@ Review the complete assignment repository, verify every required folder, file, p
 - Verified the full repository file structure against the assignment guide.
 - Checked that all nine mission READMEs follow the required nine-section format and contain no private information.
 - Executed `hello.py` and `number_converter.py` to confirm both Python programs run properly.
-- Verified that `mission-02-terminal/terminal-practice/notes.txt` and `notes-backup.txt` exist.
+- Verified that `mission-02-terminal/terminal-practice/notes.txt` and `notes-backup-renamed.txt` exist.
 - Audited the Git commit history across `main` and `update-about`.
 - Confirmed that the repository is public and Pull Request #1 remains open and unmerged.
 - Wrote the final review and checklist below.
@@ -35,6 +35,8 @@ All required mission directories (`mission-00-setup` through `mission-08-final-r
 ### Corrections made during audit
 
 - Added the actual Mission 6 commit hash (`fd5c326`) and corrected the `git status` output snippet in `mission-06-git-github/README.md` in follow-up commit `7060d8d`.
+- Renamed the Mission 2 backup file to `notes-backup-renamed.txt` and updated `mission-02-terminal/README.md` in follow-up commit `8e0432d` (`Document backup rename in Mission 2 terminal practice`).
+- Clarified the running and sleeping process counts in `mission-03-operating-system/README.md` in follow-up commit `a29b332` (`Clarify process states in Mission 3 OS snapshot`).
 
 ### Mission status summary
 
@@ -42,14 +44,14 @@ All required mission directories (`mission-00-setup` through `mission-08-final-r
 |---------|-------|--------|--------|
 | Mission 0 | Setup and GitHub Workspace | Complete | `71b908e` (`Set up Digital Detective mission structure`) |
 | Mission 1 | Computer Basics and IPOS | Complete | `90fca1b` (`Complete computer basics and IPOS mission`) |
-| Mission 2 | Terminal and File Management | Complete | `c1e729c` (`Complete Terminal and file management mission`) |
-| Mission 3 | Operating System | Complete | `f3586cc` (`Document operating system and file management`) |
+| Mission 2 | Terminal and File Management | Complete | `c1e729c` (`Complete Terminal and file management mission`) & `8e0432d` (`Document backup rename in Mission 2 terminal practice`) |
+| Mission 3 | Operating System | Complete | `f3586cc` (`Document operating system and file management`) & `a29b332` (`Clarify process states in Mission 3 OS snapshot`) |
 | Mission 4 | How Programs Run | Complete | `84bfce1` (`Compare compilers and interpreters`) |
 | Mission 5 | Numbers and Data | Complete | `cae40dc` (`Build number converter and practise data representation`) |
 | Mission 6 | Git and GitHub | Complete | `fd5c326` (`Complete Git and GitHub collaboration mission`) & `7060d8d` (`Update Mission 6 README with commit hash`) |
 | Mission 6 (branch) | `update-about` root README update | Complete | `79572f3` (`Add My Learning section to root README`) |
 | Mission 7 | Computer Networks | Complete | `9393c78` (`Explain networking concepts and website communication`) |
-| Mission 8 | Final Report and Submission | Complete | Committed with `Complete final report and verify assignment submission` |
+| Mission 8 | Final Report and Submission | Complete | `01509b6` (`Complete final report and verify assignment submission`) & follow-up correction commit |
 
 ### Branch and Pull Request status
 
@@ -64,7 +66,7 @@ All required mission directories (`mission-00-setup` through `mission-08-final-r
 - [x] Every mission README contains all nine required sections.
 - [x] Every mission has a dedicated meaningful commit pushed to GitHub.
 - [x] IPOS, hardware, software, and everyday systems are covered.
-- [x] Terminal operations and file management (`notes.txt`, `notes-backup.txt`) are covered.
+- [x] Terminal operations and file management (`notes.txt`, `notes-backup-renamed.txt`) are covered.
 - [x] Flags (`ls -lah`) and pipes (`ls -lah | head -n 5`) are explained.
 - [x] Package manager (`brew`) observations are recorded.
 - [x] OS details, processes (`ps`, `top`), paths, storage (`df -h /`), and permissions (`ls -l`) are covered.
@@ -100,6 +102,7 @@ Not applicable.
 
 ## 8. Commit details
 
-Commit message: `Complete final report and verify assignment submission`
+Commit message: `Complete final report and verify assignment submission` (`01509b6`)
+Correction commit: `Update Mission 8 final report with correction commits`
 Branch: `main`
 Pushed to: `https://github.com/Aayush-Raj07/digital-detective-8526`
