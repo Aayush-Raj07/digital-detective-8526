@@ -46,3 +46,12 @@ Working through these missions connected theory to practice. Running actual Term
 
 Each mission has its own README and was completed and committed individually.
 The Git history shows the progression from setup to final report.
+
+
+## My Learning
+
+Working through Missions 0–5 showed me how the pieces of a computer system fit together:
+
+- **Terminal is quicker than it looks.** Once I knew `pwd`, `ls`, `cd`, and `cp`, navigating felt natural. Pipes like `ls -lah | head -n 5` showed how commands can work together.
+- **The OS is always working in the background.** Seeing 846 processes in `top` and understanding that `launchd` starts everything made the OS feel concrete, not abstract.
+- **Binary and hex make sense with place values.** Writing out the remainders for each division step made the conversion method stick. Python's `bin()` and `hex()` functions then confirmed the answers instantly.
