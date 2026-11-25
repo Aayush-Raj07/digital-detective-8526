@@ -38,14 +38,14 @@ Output:
 On branch main
 Your branch is up to date with 'origin/main'.
 
-Changes not staged for commit:
-        modified: mission-06-git-github/README.md
+Untracked files:
+        mission-06-git-github/
 ```
 
 After `git add mission-06-git-github/README.md`:
 ```
 Changes to be committed:
-        modified: mission-06-git-github/README.md
+        new file: mission-06-git-github/README.md
 ```
 
 **Difference between staging and committing:**
@@ -54,7 +54,7 @@ Changes to be committed:
 
 `git log --oneline` after the Mission 6 commit:
 ```
-<hash> Complete Git and GitHub collaboration mission
+fd5c326 Complete Git and GitHub collaboration mission
 cae40dc Build number converter and practise data representation
 84bfce1 Compare compilers and interpreters
 f3586cc Document operating system and file management
@@ -144,7 +144,7 @@ Not applicable.
 
 ## 8. Commit details
 
-Mission 6 commit message: `Complete Git and GitHub collaboration mission`
-Branch commit message: `Add My Learning section to root README` (on `update-about`)
+Mission 6 commit message: `Complete Git and GitHub collaboration mission` (`fd5c326`)
+Branch commit message: `Add My Learning section to root README` (`79572f3` on `update-about`)
 Branch: `main`
 Pushed to: `https://github.com/Aayush-Raj07/digital-detective-8526`
